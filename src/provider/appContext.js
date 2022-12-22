@@ -2,13 +2,13 @@ import { createContext } from "react";
 
 const initialAppState = {
   weather: null,
-  unit: "C",
-  city: "Delhi",
-  country: "IN",
+  unit: "f",
+  city: "Longmont",
+  country: "CO",
   isDark: false,
   geoCoords: {
-    lon: 77.2167,
-    lat: 28.6667,
+    lon: 40.1672,
+    lat: -105.1019,
   },
 };
 
