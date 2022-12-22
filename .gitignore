@@ -22,9 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# TODO: revert to using tags.
-./config/config.js
-
 # TODO: learn how to set on Netlify.
 .env
 
