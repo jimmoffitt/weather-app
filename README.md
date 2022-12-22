@@ -1,5 +1,5 @@
 <div align="center">
-    <b><a href="https://weatherexample.netlify.app" target="_blank">
+    <b><a href="https://react-wander.netlify.app" target="_blank">
     <img src="./banner.png" />
     </a></b>
 </div>
@@ -12,7 +12,7 @@ to get this app up and running.
 
 ## Preview of project this was cloned from: 
 {update link when deployed}
-🌐 **[Live Preview](https://hweather.netlify.app/)**
+🌐 **[Live Preview](https://react-wander.netlify.app)**
 
 Here's a preview of what this webapp generates:
 
