@@ -1,7 +1,7 @@
 import { useEffect, useReducer } from "react";
 import CityInput from "./components/CityInput";
 import Weather from "./components/Weather";
-import AppContext, { appReducer, initialAppState } from "./provider/appContext";
+import AppContext, { weatherAppReducer, initialWeatherAppState } from "./provider/weatherAppContext";
 import "./App.css";
 import geoCoords from "./utils/geoCoords";
 import getWeather, {
