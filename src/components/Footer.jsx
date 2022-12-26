@@ -11,13 +11,13 @@ function Footer() {
   return (
     <>
       <footer className="footer">
-        <p>This project is based on https://github.com/hicodersofficial/weather-app (see below). 
-          This version with Twitter snippets is at https://github.com/jimmoffitt/weather-app:
+        <p>This project is based on <a href='https://github.com/hicodersofficial/weather-app'> </a> (see below). 
+          This version with Twitter snippets is at <a href='https://github.com/jimmoffitt/weather-app'> </a>:
         </p>
         <a
           href="https://github.com/jimmoffitt/weather-app"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer"r
           style={isDark ? anchorStyle : null}
         >
           <i class="fa-brands fa-github"></i> <span>GitHub</span>
@@ -40,7 +40,7 @@ function Footer() {
         </a>
       </footer>
       <footer className="footer">
-        <p>https://github.com/hicodersofficial/weather-app:</p>
+        <p><a href='https://github.com/hicodersofficial/weather-app'>: </a></p>
         <a
           href="https://github.com/hicodersofficial/weather-app"
           target="_blank"
