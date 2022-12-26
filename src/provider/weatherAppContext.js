@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-const initialAppState = {
+const initialWeatherAppState = {
   weather: null,
   unit: "f",
   city: "Longmont",
@@ -12,7 +12,7 @@ const initialAppState = {
   },
 };
 
-function appReducer(state, action) {
+function weatherAppReducer(state, action) {
   const { type, payload } = action;
 
   switch (type) {
@@ -33,7 +33,7 @@ function appReducer(state, action) {
   }
 }
 
-const AppContext = createContext();
+const WeatherAppContext = createContext();
 
-export { appReducer, initialAppState };
-export default AppContext;
+export { weatherAppReducer, initialWeatherAppState };
+export default WeatherAppContext;
