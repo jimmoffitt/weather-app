@@ -1,5 +1,5 @@
 import { useContext, useRef } from "react";
-import AppContext from "../provider/appContext";
+import AppContext from "../provider/weatherAppContext";
 import { getCityName } from "../services/weatherService";
 import geoCoords from "../utils/geoCoords";
 

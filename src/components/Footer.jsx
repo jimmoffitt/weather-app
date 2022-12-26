@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import AppContext from "../provider/appContext";
+import AppContext from "../provider/weatherAppContext";
 
 function Footer() {
   const {

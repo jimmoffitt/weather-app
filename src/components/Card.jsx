@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import AppContext from "../provider/appContext";
+import AppContext from "../provider/weatherAppContext";
 
 function Card({ children, className }) {
   const {
