@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import AppContext from "../provider/appContext";
+import AppContext from "../provider/weatherAppContext";
 import Loader from "./Loader";
 import Temperature from "./Temperature";
 
