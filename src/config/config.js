@@ -12,8 +12,8 @@
 const OPEN_WEATHER_MAP_API_KEY = process.env.REACT_APP_API_KEY;
 
 //Load Twitter authentication tokens.
-const TWITTER_CONSUMER_TOKEN = process.env.TWITTER_CONSUMER_TOKEN;
-const TWITTER_USER_TOKEN = process.env.TWITTER_USER_TOKEN;
+//const TWITTER_CONSUMER_TOKEN = process.env.TWITTER_CONSUMER_TOKEN;
+//const TWITTER_USER_TOKEN = process.env.TWITTER_USER_TOKEN;
 
 //Provide the paths to external data services. 
 const config = {
