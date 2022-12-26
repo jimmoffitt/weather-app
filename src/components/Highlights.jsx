@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import AppContext from "../provider/appContext";
+import AppContext from "../provider/weatherAppContext";
 import Card from "./Card";
 import Loader from "./Loader";
 
