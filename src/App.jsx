@@ -14,7 +14,7 @@ import Hourly from "./components/Hourly";
 import Footer from "./components/Footer";
 
 function App() {
-  const [app, dispatchApp] = useReducer(appReducer, initialAppState);
+  const [app, dispatchApp] = useReducer(weatherAppReducer, initialWeatherAppState);
   useEffect(() => {
     const date = new Date();
     const hour = date.getHours();
