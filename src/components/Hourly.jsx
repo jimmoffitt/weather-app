@@ -6,7 +6,7 @@ import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import AppContext from "../provider/appContext";
+import AppContext from "../provider/weatherAppContext";
 import Temperature from "./Temperature";
 import Card from "./Card";
 import Loader from "./Loader";
