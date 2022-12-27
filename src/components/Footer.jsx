@@ -11,9 +11,8 @@ function Footer() {
   return (
     <>
       <footer className="footer">
-        <p>This project is based on https://github.com/hicodersofficial/weather-app (see below). 
-          This version with Twitter snippets is at <a href='https://github.com/jimmoffitt/weather-app'>https://github.com/jimmoffitt/weather-app</a>:
-        </p>
+        <p>This project is based on https://github.com/hicodersofficial/weather-app (see below). </p>
+        <p>This version with Twitter snippets is at <a href='https://github.com/jimmoffitt/weather-app'>https://github.com/jimmoffitt/weather-app</a>:</p>
         <a
           href="https://github.com/jimmoffitt/weather-app"
           target="_blank"
