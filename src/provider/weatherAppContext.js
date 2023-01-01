@@ -2,14 +2,16 @@ import { createContext } from "react";
 
 const initialWeatherAppState = {
   weather: null,
+
+  // Defaults for opening Temperature unit and starting location. 
   unit: "f",
   city: "Longmont",
   country: "CO",
-  isDark: false,
   geoCoords: {
     lon: 40.1672,
     lat: -105.1019,
   },
+  isDark: false,
 };
 
 function weatherAppReducer(state, action) {
